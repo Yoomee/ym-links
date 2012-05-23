@@ -1,0 +1,5 @@
+%ul.unstyled.links
+  -links.each do |link|
+    %li
+      =image_tag(link.favicon)
+      =link_to(link, link.url, :target => '_blank')
