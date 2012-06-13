@@ -10,6 +10,14 @@ class YmLinks::Link < ActiveRecord::Base
     end
   end
   
+  def facebook?
+    host.to_s.match(/facebook/)
+  end
+  
+  def twitter?
+    host.to_s.match(/twitter/)
+  end
+  
   def favicon
     self.class.favicon(url)
   end
