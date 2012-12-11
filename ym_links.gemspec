@@ -19,5 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 3.1.0"
   s.add_dependency 'cocoon', "1.0.22"   
   s.add_development_dependency 'ym_tools', '~> 0.1.1'
+  s.add_development_dependency "geminabox"
+  
   
 end
