@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.0"
-  s.add_dependency 'cocoon'    
+  s.add_dependency 'cocoon', "1.0.22"   
   
 end
